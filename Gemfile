@@ -8,12 +8,6 @@ group :test do
   gem 'growl'
 end
 
-if RUBY_VERSION < "1.9"
-  gem "ruby-debug"
-else
-  gem "ruby-debug19"
-end
-
 gemspec
 
-gem 'spree', git: 'https://github.com/spree/spree.git', branch: '1-0-stable'
+gem 'spree', git: 'https://github.com/spree/spree.git'
